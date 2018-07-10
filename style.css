@@ -735,7 +735,7 @@ a#scrollUp {
   background-position: center center; }
 
 .bg-image--20 {
-  background-image: url(images/bg/aboutusheader.jpg);
+  background-image: url(images/bg/newAbout.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -2001,7 +2001,7 @@ nav.main__menu__nav {
               color: #444;
               display: block;
               font-family: Open Sans;
-              font-size: 16px;
+              font-size: 14px;
 
               font-weight: 400;
               height: auto;
