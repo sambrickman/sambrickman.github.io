@@ -2715,8 +2715,8 @@ nav.main__menu__nav {
             color: #fff;
             display: inline-block;
             font-family: "Open Sans", sans-serif;
-            font-size: 16px;
-            font-weight: 600;
+            font-size: 24px;
+            font-weight: bold;
             height: 70px;
             line-height: 67px;
             padding: 0 33px; }
@@ -4619,21 +4619,22 @@ div.slide__pizza img {
 .feature {
   background: #fff none repeat scroll 0 0;
   box-shadow: 0 0px 8px 0px rgba(1, 26, 27, 0.1);
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   transition: 0.3s; }
   .feature:hover {
     box-shadow: 0 0px 16px 11px rgba(191, 191, 191, 0.1); }
   .feature .feature__thumb a img {
     max-height: 198px; }
   .feature .feature__details h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
     margin-top: 24px; }
   .feature .feature__details h6 {
     color: #959595;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 16px;
     margin-top: 8px; }
   .feature .feature__details p {
