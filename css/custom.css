@@ -34,5 +34,9 @@ font-family: 'Raleway', sans-serif !important;
 }
 
 .background-grey{
-  background-color: grey!important
+  background-color: grey!important;
+}
+
+.color-transparent{
+  color:transparent !important;
 }

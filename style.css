@@ -4962,7 +4962,7 @@ div.slide__pizza img {
   -webkit-justify-content: center;
   -moz-justify-content: center;
   justify-content: center;
-  padding: 65px 0; }
+  padding: 25px 0; }
   .contact:first-child {
     background: #cf7002 none repeat scroll 0 0; }
   .contact:last-child {
@@ -5158,7 +5158,7 @@ div.slide__pizza img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 60px; }
   .menu__grid__item .menu__grid__thumb {
-    padding-top: 15px;
+    padding-top: 10px;
     position: relative; }
     .menu__grid__item .menu__grid__thumb a {
       display: block;
@@ -5166,6 +5166,12 @@ div.slide__pizza img {
       .menu__grid__item .menu__grid__thumb a img {
         width: 100%;
         transition: all 0.5s ease 0s; }
+        .menu__grid__item .menu__grid__thumb_war a img {
+          width: 70%;
+          transition: all 0.5s ease 0s;
+          display:block;
+          margin: 0 auto;}
+
     .menu__grid__item .menu__grid__thumb .grid__item__offer {
       background: #cf7002 none repeat scroll 0 0;
       border: 5px solid #fff;
@@ -5187,12 +5193,12 @@ div.slide__pizza img {
       padding: 30px 20px 31px; }
       .menu__grid__item .menu__grid__inner .menu__grid__details h2 {
         color: #333333;
-        font-family: "Open Sans", sans-serif;
-        font-size: 20px;
+        font-family: "Raleway", sans-serif;
+        font-size: 24px;
         text-transform: capitalize; }
       .menu__grid__item .menu__grid__inner .menu__grid__details p {
         color: #959595;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px; }
 
 .grid__item__offer span:first-child {
@@ -5207,7 +5213,7 @@ div.slide__pizza img {
   .grid__prize__list li {
     display: inline-block;
     color: #cf7002;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin: 0 8px; }
