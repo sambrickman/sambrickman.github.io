@@ -2001,7 +2001,8 @@ nav.main__menu__nav {
               color: #444;
               display: block;
               font-family: Open Sans;
-              font-size: 14px;
+              font-size: 16px;
+
               font-weight: 400;
               height: auto;
               line-height: 45px;
@@ -2027,7 +2028,7 @@ nav.main__menu__nav {
         -moz-align-items: center;
         align-items: center;
         color: #444;
-        font-size: 14px;
+        font-size: 17px;
         height: 100px;
         font-weight: 700;
         text-transform: capitalize; }
