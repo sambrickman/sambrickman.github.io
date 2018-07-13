@@ -729,7 +729,7 @@ a#scrollUp {
   background-position: center center; }
 
 .bg-image--19 {
-  background-image: url(images/bg/19.jpg);
+  background-image: url(images/bg/aboutusheader.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -5168,7 +5168,7 @@ div.slide__pizza img {
         width: 100%;
         transition: all 0.5s ease 0s; }
         .menu__grid__item .menu__grid__thumb_war a img {
-          width: 70%;
+          width:70%;
           transition: all 0.5s ease 0s;
           display:block;
           margin: 0 auto;}
