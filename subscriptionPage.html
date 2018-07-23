@@ -22,7 +22,7 @@
 	<!-- Modernizer js -->
 	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
 	<!-- Modernizer js -->
-	
+
 </head>
 <body>
 	<!--[if lte IE 9]>
@@ -214,7 +214,9 @@
 
 																</div>
 																<div class="grid__addto__cart__btn">
-																			<a href="#" class="blue" >$99.00</a>
+																<div class="log__in">
+																					<a class="accountbox-trigger" href="#">$99.00</a>
+																			</div>
 																	</div>
 														</div>
 												</div>
@@ -248,7 +250,9 @@
 
 																</div>
 																<div class="grid__addto__cart__btn">
-																			<a href="#">$215.00</a>
+																	<div class="log__in">
+																						<a class="accountbox-trigger" href="#">$215.00</a>
+																				</div>
 																	</div>
 														</div>
 												</div>
@@ -285,7 +289,9 @@
 
 																</div>
 																<div class="grid__addto__cart__btn">
-																			<a href="#" class="blue" >$415.00</a>
+																	<div class="log__in">
+																						<a class="accountbox-trigger" href="#">$415.00</a>
+																				</div>
 																	</div>
 														</div>
 												</div>
@@ -442,57 +448,26 @@
         <!-- Login Form -->
         <div class="accountbox-wrapper">
             <div class="accountbox text-left">
-                <ul class="nav accountbox__filters" id="myTab" role="tablist">
-                    <li>
-                        <a class="active" id="log-tab" data-toggle="tab" href="#log" role="tab" aria-controls="log" aria-selected="true">Login</a>
-                    </li>
-                    <li>
-                        <a id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Register</a>
-                    </li>
-                </ul>
+
                 <div class="accountbox__inner tab-content" id="myTabContent">
                     <div class="accountbox__login tab-pane fade show active" id="log" role="tabpanel" aria-labelledby="log-tab">
                         <form action="#">
                             <div class="single-input">
-                                <input class="cr-round--lg" type="text" placeholder="User name or email">
+                                <!-- <h3 class ="color-black font-header text-center">Email</h3>
+																 <h3 class= "color-orange font-header text-center">contact@sunabreakfast.com</h3>
+																 <h3 class= "color-black font-header text-center">to order</h3> -->
+
+																 <h3 class = "color-black font-subhead text-center"> To purchase a package,
+												 email</h3>
+																	 <h3 class = "color-orange font-subhead text-center"> contact@sunabreakfast.com</h3>
+																	 <h3 class = "color-black font-subhead text-center"> and we will process your request promptly</h3>
+																	 <img src="images/logo/sunalogo.png" alt="grid item images">
+																	  <img src="images/icon/color-icon/newWakeup.png" alt="grid item images" style="float: right;">
                             </div>
-                            <div class="single-input">
-                                <input class="cr-round--lg" type="email" placeholder="email">
-                            </div>
-                            <div class="single-input">
-                                <button type="submit" class="food__btn"><span>Go</span></button>
-                            </div>
-                            <div class="accountbox-login__others">
-                                <h6>Or login with</h6>
-                                <div class="social-icons">
-                                    <ul>
-                                        <li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="pinterest"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
+
                         </form>
                     </div>
-                    <div class="accountbox__register tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <form action="#">
-                            <div class="single-input">
-                                <input class="cr-round--lg" type="text" placeholder="User name">
-                            </div>
-                            <div class="single-input">
-                                <input class="cr-round--lg" type="email" placeholder="Email address">
-                            </div>
-                            <div class="single-input">
-                                <input class="cr-round--lg" type="email" placeholder="email">
-                            </div>
-                            <div class="single-input">
-                                <input class="cr-round--lg" type="email" placeholder="Confirm email">
-                            </div>
-                            <div class="single-input">
-                                <button type="submit" class="food__btn"><span>Sign Up</span></button>
-                            </div>
-                        </form>
-                    </div>
+
                     <span class="accountbox-close-button"><i class="zmdi zmdi-close"></i></span>
                 </div>
             </div>

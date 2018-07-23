@@ -7631,8 +7631,8 @@ div.slide__pizza img {
   width: 460px;
   opacity: 0;
   visibility: hidden;
-  padding: 70px;
-  padding-right: 120px;
+  padding: 20px;
+  padding-right: 20px;
   -webkit-transform: translate(-50%, -120%);
   -moz-transform: translate(-50%, -120%);
   -ms-transform: translate(-50%, -120%);
