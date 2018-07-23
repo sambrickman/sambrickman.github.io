@@ -1,5 +1,5 @@
 /*! YU2FVL - jQuery Youtube Url To FullScreen Video Lightbox - v0.1.0 - 2016-02-07
-* http://otakod.es/yu2fvl
+* https://otakod.es/yu2fvl
 * Copyright (c) 2016 darkylmnx; Licensed MIT */
 
 (function ( $, w, doc ) {

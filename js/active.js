@@ -2,9 +2,9 @@
 
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Aahar Food Delivery Html5 Template
+    Template Name: # Food Delivery Html5 Template
     Template URI: https://themeforest.net/user/hastech
-    Description: Aahar Food Delivery Html5 Template
+    Description: # Food Delivery Html5 Template
     Author: Hastech
     Author URI: https://themeforest.net/user/hastech
     Version: 1.0

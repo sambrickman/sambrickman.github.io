@@ -271,7 +271,7 @@
 // Values: flex-start | flex-end | center | baseline | stretch
 // Default: stretch
 //
-// http://w3.org/tr/css3-flexbox/#align-items-property
+// https://w3.org/tr/css3-flexbox/#align-items-property
 
 @mixin align-items($value: stretch) {
 	@if $value == flex-start {
@@ -322,7 +322,7 @@
 // Values: flex-start | flex-end | center | space-between | space-around | stretch
 // Default: stretch
 //
-// http://w3.org/tr/css3-flexbox/#align-content-property
+// https://w3.org/tr/css3-flexbox/#align-content-property
 
 @mixin align-content($value: stretch) {
 	// No Webkit Box Fallback.
