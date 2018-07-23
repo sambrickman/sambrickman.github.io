@@ -5166,7 +5166,8 @@ div.slide__pizza img {
       overflow: hidden; }
       .menu__grid__item .menu__grid__thumb a img {
         width: 100%;
-        transition: all 0.5s ease 0s; }
+        transition: all 0.5s ease 0s;
+        margin:0; }
         .menu__grid__item .menu__grid__thumb_war a img {
           width:70%;
           transition: all 0.5s ease 0s;
@@ -5231,7 +5232,7 @@ div.slide__pizza img {
     background: #cf7002 none repeat scroll 0 0;
     color: #ffffff;
     display: block;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     height: 50px;
     letter-spacing: 2px;
@@ -5243,18 +5244,24 @@ div.slide__pizza img {
     -o-transition: 0.4s;
     transition: 0.4s; }
     .grid__addto__cart__btn a:hover {
-      background: #000; }
+      background: green; }
+
+
 
 .menu__grid__item:hover .grid__addto__cart__btn {
   height: 30px;
   opacity: 1;
   visibility: visible; }
 
-.grid__addto__cart__btn {
+/* .grid__addto__cart__btn {
   height: 0;
   opacity: 0;
   transition: all 0.5s ease-in 0s;
-  visibility: hidden; }
+  visibility: visible; } */
+
+  .grid__addto__cart__btn {
+    visibility: visible; }
+
 
 .menu__grid__item:hover .menu__grid__thumb a img {
   transform: scale(1.15) rotate(3deg); }
