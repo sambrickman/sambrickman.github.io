@@ -2709,10 +2709,11 @@ nav.main__menu__nav {
           .slide .slider__content .slider__inner .slider__input input.res__search {
             width: 400px; }
         .slide .slider__content .slider__inner .slider__input .src__btn {
-          margin-left: 3px; }
+          margin-left: 3px;
+          margin-right: 40px;}
           .slide .slider__content .slider__inner .slider__input .src__btn a {
             background: #cf7002 none repeat scroll 0 0;
-            border-radius: 5px;
+            border-radius: 15px;
             color: #fff;
             display: inline-block;
             font-family: "Open Sans", sans-serif;
