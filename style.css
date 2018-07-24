@@ -3832,7 +3832,7 @@ div.slide__pizza img {
   padding: 30px 30px 30px 70px;
   position: relative; }
   .testimonial-2::before {
-    color: #f0c1c1;
+    color: #cf7002;
     content: "\f1b2";
     font-family: Material-Design-Iconic-Font;
     font-size: 50px;
@@ -4055,13 +4055,13 @@ div.slide__pizza img {
     padding: 0 10px;
     position: relative; }
     .dot__cus li::before {
-      color: #fff;
+      color: #cf7002;
       content: "-";
       font-size: 13px;
       position: absolute;
       right: 0; }
     .dot__cus li.slick-active button {
-      background: #cf7002 none repeat scroll 0 0;
+      background: #fff none repeat scroll 0 0;
       border-radius: 100%;
       font-weight: 700;
       height: 25px;
@@ -4070,7 +4070,7 @@ div.slide__pizza img {
     .dot__cus li button {
       background: transparent none repeat scroll 0 0;
       border: medium none;
-      color: #ffffff;
+      color: #cf7002;
       font-size: 14px;
       outline: medium none; }
 
