@@ -4064,7 +4064,7 @@ div.slide__pizza img {
     .dot__cus li.slick-active button {
       background: #fff none repeat scroll 0 0;
       border-radius: 100%;
-      font-weight: 700;
+      font-weight: bold;
       height: 25px;
       outline: 1px solid transparent;
       width: 25px; }
@@ -4072,7 +4072,7 @@ div.slide__pizza img {
       background: transparent none repeat scroll 0 0;
       border: medium none;
       color: #cf7002;
-      font-size: 14px;
+      font-size: 20px;
       outline: medium none; }
 
 .dot__cus li:last-child::before {
