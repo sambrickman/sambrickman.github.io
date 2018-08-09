@@ -174,7 +174,7 @@ dfn {
   font-style: italic; }
 
 mark {
-  background: #cf7002;
+  background: #FF8240;
   color: #000; }
 
 p {
@@ -392,17 +392,17 @@ hr {
   margin: 0 0 24px; }
 
 *::-moz-selection {
-  background: #cf7002;
+  background: #FF8240;
   color: #fff;
   text-shadow: none; }
 
 ::-moz-selection {
-  background: #cf7002;
+  background: #FF8240;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #cf7002;
+  background: #FF8240;
   color: #fff;
   text-shadow: none; }
 
@@ -512,7 +512,7 @@ a:focus,
 a:active {
   text-decoration: none;
   outline: none;
-  color: #cf7002; }
+  color: #FF8240; }
 
 /*======= Helper Class =======*/
 .hidden {
@@ -566,11 +566,11 @@ a#scrollUp {
   padding: 9px 0;
   box-shadow: 0 0 15px 0px rgba(50, 50, 50, 0.2); }
   a#scrollUp:hover {
-    background: #cf7002;
+    background: #FF8240;
     color: #fff; }
 
 .color--theme {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .color--light {
   color: #999999; }
@@ -585,7 +585,7 @@ a#scrollUp {
   color: #ffffff; }
 
 .bg--theme {
-  background: #cf7002; }
+  background: #FF8240; }
 
 .bg--light {
   background: #999999; }
@@ -669,7 +669,7 @@ a#scrollUp {
   background-position: center center; }
 
 .bg-image--9 {
-  background-image: url(images/bg/testimonialBackground.jpg);
+  background-image: url(images/bg/fruitInverted.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -1385,7 +1385,7 @@ a#scrollUp {
   z-index: 1; }
 
 [data-overlay]:before {
-  background-color: #cf7002; }
+  background-color: #FF8240; }
 
 [data-black-overlay]:before {
   background-color: #000000; }
@@ -1502,7 +1502,7 @@ a#scrollUp {
   color: #444444; }
 
 .food__btn {
-  background: #cf7002 none repeat scroll 0 0;
+  background: #FF8240 none repeat scroll 0 0;
   border-radius: 5px;
   color: #fff;
   display: inline-block;
@@ -1538,7 +1538,7 @@ a#scrollUp {
     z-index: -1;
     border-radius: 5px; }
   .food__btn.theme--hover::before {
-    background: #cf7002 none repeat scroll 0 0; }
+    background: #FF8240 none repeat scroll 0 0; }
 
 .food__btn.grey--btn {
   background: #f2f2f2 none repeat scroll 0 0;
@@ -1574,7 +1574,7 @@ a#scrollUp {
   font-size: 14px; }
 
 .pizza:hover .food__btn.theme--hover::before {
-  background: #cf7002 none repeat scroll 0 0; }
+  background: #FF8240 none repeat scroll 0 0; }
 
 .pizza:active .food__btn.theme--hover::before,
 .pizza:focus .food__btn.theme--hover::before,
@@ -1588,7 +1588,7 @@ a#scrollUp {
   color: #fff; }
 
 .slider__btn .food__btn {
-  background: #cf7002 none repeat scroll 0 0;
+  background: #FF8240 none repeat scroll 0 0;
   font-size: 26px;
   font-weight: 700;
   height: 50px;
@@ -1596,13 +1596,13 @@ a#scrollUp {
   padding: 0 36px; }
 
 .food__btn.btn__hover--theme::before {
-  background: #cf7002 none repeat scroll 0 0; }
+  background: #FF8240 none repeat scroll 0 0; }
 
 .food__btn.btn--transparent:hover {
   color: #fff; }
 
 .subscribe--3 .food__btn {
-  background: #cf7002 none repeat scroll 0 0; }
+  background: #FF8240 none repeat scroll 0 0; }
 
 .subscribe--3 .food__btn::before {
   background: #222222 none repeat scroll 0 0; }
@@ -1845,7 +1845,7 @@ a#scrollUp {
   padding-right: 12px;
   position: relative; }
   .header__right .shopping__cart::before {
-    background: #cf7002;
+    background: #FF8240;
     content: "";
     height: 12px;
     left: 0;
@@ -1856,7 +1856,7 @@ a#scrollUp {
     color: #666666;
     font-size: 20px; }
   .header__right .shopping__cart .shop__qun {
-    background: #cf7002 none repeat scroll 0 0;
+    background: #FF8240 none repeat scroll 0 0;
     border-radius: 100%;
     color: #fff;
     height: 22px;
@@ -1969,7 +1969,7 @@ nav.main__menu__nav {
       -moz-align-items: center;
       align-items: center; }
       nav.main__menu__nav ul li:hover a {
-        color: #cf7002; }
+        color: #FF8240; }
       nav.main__menu__nav ul li.drop {
         position: relative; }
         nav.main__menu__nav ul li.drop:hover ul.dropdown__menu {
@@ -2010,7 +2010,7 @@ nav.main__menu__nav {
               text-transform: capitalize;
               transition: all 150ms linear 0s; }
               nav.main__menu__nav ul li.drop ul.dropdown__menu li a:hover {
-                color: #cf7002;
+                color: #FF8240;
                 padding-left: 5px; }
       nav.main__menu__nav ul li a {
         display: -webkit-box;
@@ -2128,10 +2128,10 @@ nav.main__menu__nav {
   text-transform: lowercase; }
 
 .subscribe--2 .food__btn:hover {
-  background: #cf7002; }
+  background: #FF8240; }
 
 .subscribe--2 .food__btn::before {
-  background: #cf7002 none repeat scroll 0 0;
+  background: #FF8240 none repeat scroll 0 0;
   border-radius: 0px; }
 
 .subscribe__inner.subscribe--3 .news__input input {
@@ -2233,7 +2233,7 @@ nav.main__menu__nav {
         font-size: 14px;
         transition: all 0.3s ease 0s; }
         .subs__address__content .subs__address .subs__address__details p a:hover {
-          color: #cf7002; }
+          color: #FF8240; }
 
 .subs--4 .fd__subscribe__area {
   padding: 0 100px; }
@@ -2526,8 +2526,8 @@ nav.main__menu__nav {
     transition: all 0.5s ease 0s;
     width: 30px; }
     .social__icon li a i:hover {
-      background: #cf7002 none repeat scroll 0 0;
-      border: 1px solid #cf7002;
+      background: #FF8240 none repeat scroll 0 0;
+      border: 1px solid #FF8240;
       color: #fff; }
 
 .ftr__address__inner {
@@ -2602,7 +2602,7 @@ nav.main__menu__nav {
 
 .single__sm__post .sin__post__details h6 a:hover,
 .frt__address__details p a:hover {
-  color: #cf7002; }
+  color: #FF8240; }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer .ftr__title {
@@ -2694,8 +2694,8 @@ nav.main__menu__nav {
         justify-content: center;
         margin-top: 46px; }
         .slide .slider__content .slider__inner .slider__input input {
-          background: #cf7002 none repeat scroll 0 0;
-          border: 1px solid #cf7002;
+          background: #FF8240 none repeat scroll 0 0;
+          border: 1px solid #FF8240;
           border-radius: 5px;
           color: #ffffff;
           font-size: 14px;
@@ -2712,7 +2712,7 @@ nav.main__menu__nav {
           margin-left: 3px;
           margin-right: 15px;}
           .slide .slider__content .slider__inner .slider__input .src__btn a {
-            background: #cf7002 none repeat scroll 0 0;
+            background: #FF8240 none repeat scroll 0 0;
             border-radius: 15px;
             color: #fff;
             display: inline-block;
@@ -2808,7 +2808,7 @@ nav.main__menu__nav {
   font-weight: 400; }
 
 .slider--three .slide .slider__content .slider__inner h1 {
-  color: #cf7002;
+  color: #FF8240;
   font-family: "Alegreya", serif;
   font-size: 200px;
   font-weight: 700;
@@ -3267,7 +3267,7 @@ div.slide__pizza img {
         -o-transition: 0.4s;
         transition: 0.4s; }
         .food__category__wrapper .food__item .food__title h2 a:hover {
-          color: #cf7002; }
+          color: #FF8240; }
 
 /*---------------------------
 	Special Menu
@@ -3292,7 +3292,7 @@ div.slide__pizza img {
       -o-transition: 0.4s;
       transition: 0.4s; }
       .special__food__menu .food__nav a.active {
-        background: #cf7002 none repeat scroll 0 0;
+        background: #FF8240 none repeat scroll 0 0;
         border: 1px dashed #fff;
         color: #fff; }
       .special__food__menu .food__nav a:hover {
@@ -3345,13 +3345,13 @@ div.slide__pizza img {
               -o-transition: 0.3s;
               transition: 0.3s; }
               .special__food__menu .fd__tab__content .single__tab__panel .tab__content__wrap .single__tab__content .food__menu .food__menu__details .fd__menu__title__prize h4 a:hover {
-                color: #cf7002; }
+                color: #FF8240; }
           .special__food__menu .fd__tab__content .single__tab__panel .tab__content__wrap .single__tab__content .food__menu .food__menu__details .fd__menu__title__prize span.menu__prize {
             -webkit-align-self: flex-end;
             -moz-align-self: flex-end;
             -ms-flex-item-align: end;
             align-self: flex-end;
-            color: #cf7002;
+            color: #FF8240;
             display: inline-block;
             font-family: "Alegreya", serif;
             font-size: 50px;
@@ -3698,7 +3698,7 @@ div.slide__pizza img {
     position: relative;
     top: -113px; }
     .clint__demand .clnt__thumb__hover .demand__food__prize {
-      background: #cf7002 none repeat scroll 0 0;
+      background: #FF8240 none repeat scroll 0 0;
       border-radius: 100%;
       height: 70px;
       left: 50%;
@@ -3833,7 +3833,7 @@ div.slide__pizza img {
   padding: 30px 30px 30px 70px;
   position: relative; }
   .testimonial-2::before {
-    color: #cf7002;
+    color: #FF8240;
     content: "\f1b2";
     font-family: Material-Design-Iconic-Font;
     font-size: 50px;
@@ -4003,7 +4003,7 @@ div.slide__pizza img {
   padding: 85px 0;
   text-align: center; }
   .testimonial-inner--4 .testimonial__inner .testimonial-text-content .testimonial__content {
-    background: #cf7002 none repeat scroll 0 0;
+    background: #FF8240 none repeat scroll 0 0;
     margin-bottom: 22px;
     padding: 25px 10%; }
     .testimonial-inner--4 .testimonial__inner .testimonial-text-content .testimonial__content p {
@@ -4056,7 +4056,7 @@ div.slide__pizza img {
     padding: 0 10px;
     position: relative; }
     .dot__cus li::before {
-      color: #cf7002;
+      color: #FF8240;
       content: "-";
       font-size: 13px;
       position: absolute;
@@ -4071,7 +4071,7 @@ div.slide__pizza img {
     .dot__cus li button {
       background: transparent none repeat scroll 0 0;
       border: medium none;
-      color: #cf7002;
+      color: #FF8240;
       font-size: 20px;
       outline: medium none; }
 
@@ -4194,7 +4194,7 @@ div.slide__pizza img {
   text-align: center;
   overflow: hidden; }
   .about .about__details {
-    background: #cf7002 none repeat scroll 0 0;
+    background: #FF8240 none repeat scroll 0 0;
     padding: 25px 28px 36px; }
     .about .about__details h2 {
       color: #ffffff;
@@ -4231,7 +4231,7 @@ div.slide__pizza img {
     width: calc(100% + 20px);
     z-index: -1; }
   .pro__offer .pro__offer__inner {
-    background: #cf7002 none repeat scroll 0 0;
+    background: #FF8240 none repeat scroll 0 0;
     border-radius: 100%;
     height: 100%;
     position: relative;
@@ -4391,7 +4391,7 @@ div.slide__pizza img {
     text-align: center; }
     .single__resturent__food .resturent__details ul li {
       margin: 0 16px;
-      color: #cf7002;
+      color: #FF8240;
       font-family: Alegreya;
       font-size: 14px;
       text-transform: capitalize; }
@@ -4534,13 +4534,13 @@ div.slide__pizza img {
   transform: translateY(-20px); }
 
 .popular__food:hover .pp__food__prize {
-  background: #cf7002; }
+  background: #FF8240; }
 
 .pp_food__thumb a img {
   width: 100%; }
 
 .pp__food__prize.active {
-  background: #cf7002; }
+  background: #FF8240; }
 
 .pp__meta li a {
   color: #959595;
@@ -4794,13 +4794,13 @@ div.slide__pizza img {
   background: #fff none repeat scroll 0 0; }
 
 .food__offer:hover .offer__details {
-  background: #cf7002; }
+  background: #FF8240; }
 
 .offer__details::after {
   transform-origin: 100% 100% 0; }
 
 .food__offer:hover .offer__product__prize::before {
-  background: #cf7002 none repeat scroll 0 0; }
+  background: #FF8240 none repeat scroll 0 0; }
 
 /*--------------------------
 	Team, Area
@@ -4839,7 +4839,7 @@ div.slide__pizza img {
       padding-bottom: 17px;
       position: relative; }
       .team .team__content .team__info::before {
-        background: #cf7002 none repeat scroll 0 0;
+        background: #FF8240 none repeat scroll 0 0;
         bottom: 0;
         content: "";
         height: 2px;
@@ -4869,7 +4869,7 @@ div.slide__pizza img {
     margin: 0 15px;
     display: inline-block; }
     .team__social__net li a:hover i {
-      color: #cf7002; }
+      color: #FF8240; }
     .team__social__net li a i {
       color: #959595;
       font-size: 15px;
@@ -4900,7 +4900,7 @@ div.slide__pizza img {
   margin: 0 5px; }
 
 .team--2 .team__social__net li a:hover i {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .team--2 .team__social__net {
   margin-bottom: -80px; }
@@ -4966,9 +4966,9 @@ div.slide__pizza img {
   justify-content: center;
   padding: 25px 0; }
   .contact:first-child {
-    background: #cf7002 none repeat scroll 0 0; }
+    background: #FF8240 none repeat scroll 0 0; }
   .contact:last-child {
-    background: #cf7002 none repeat scroll 0 0; }
+    background: #FF8240 none repeat scroll 0 0; }
   .contact .ct__icon {
     padding-right: 29px; }
     .contact .ct__icon i {
@@ -5176,7 +5176,7 @@ div.slide__pizza img {
           margin: 0 auto;}
 
     .menu__grid__item .menu__grid__thumb .grid__item__offer {
-      background: #cf7002 none repeat scroll 0 0;
+      background: #FF8240 none repeat scroll 0 0;
       border: 5px solid #fff;
       border-radius: 100%;
       height: 70px;
@@ -5215,7 +5215,7 @@ div.slide__pizza img {
   margin-top: 16px; }
   .grid__prize__list li {
     display: inline-block;
-    color: #cf7002;
+    color: #FF8240;
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -5230,7 +5230,7 @@ div.slide__pizza img {
   -o-transition: 0.5s;
   transition: 0.5s; }
   .grid__addto__cart__btn a {
-    background: #cf7002 none repeat scroll 0 0;
+    background: #FF8240 none repeat scroll 0 0;
     color: #ffffff;
     display: block;
     font-size: 25px;
@@ -5351,7 +5351,7 @@ div.slide__pizza img {
       display: block;
       position: relative; }
       .single__food__list .food__list__thumb a::before {
-        background: #cf7002 none repeat scroll 0 0;
+        background: #FF8240 none repeat scroll 0 0;
         content: "";
         height: 5px;
         left: 0;
@@ -5401,7 +5401,7 @@ div.slide__pizza img {
       align-self: flex-start;
       padding-top: 29px; }
       .single__food__list .food__list__inner .food__rating .list__food__prize span {
-        color: #cf7002;
+        color: #FF8240;
         display: inline-block;
         font-family: "Alegreya", serif;
         font-size: 50px;
@@ -5436,7 +5436,7 @@ div.slide__pizza img {
     -o-transition: 0.5s;
     transition: 0.5s; }
     .food__nav a:hover {
-      color: #cf7002; }
+      color: #FF8240; }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single__food__list .food__list__thumb {
@@ -5508,7 +5508,7 @@ div.slide__pizza img {
   -o-transition: 0.5s;
   transition: 0.5s; }
   .portfolio__menu button:hover {
-    color: #cf7002; }
+    color: #FF8240; }
 
 .pro__item {
   margin-top: 30px; }
@@ -5571,8 +5571,8 @@ div.slide__pizza img {
     transition: 0.5s;
     width: 40px; }
     .portfolio__list li a:hover {
-      background: #cf7002;
-      border: 1px solid #cf7002;
+      background: #FF8240;
+      border: 1px solid #FF8240;
       color: #fff; }
 
 .portfolio:hover .portfolio__hover::before {
@@ -5612,7 +5612,7 @@ div.slide__pizza img {
     font-size: 13px;
     transition: all 0.3s ease 0s; }
     .list__meta li a:hover {
-      color: #cf7002; }
+      color: #FF8240; }
 
 .list__meta li + li {
   margin-left: 13px;
@@ -5649,10 +5649,10 @@ div.slide__pizza img {
     text-transform: uppercase; }
     .bl__list__btn .food__btn.btn--transparent:hover {
       color: #fff;
-      border: 1px solid #cf7002; }
+      border: 1px solid #FF8240; }
 
 .bl__list__btn .food__btn::before {
-  background: #cf7002 none repeat scroll 0 0;
+  background: #FF8240 none repeat scroll 0 0;
   border-radius: 0; }
 
 .blog-list-right-sidebar .food__bl__list .fd__list__inner .fd__list__details p {
@@ -5805,7 +5805,7 @@ div.slide__pizza img {
         margin-top: 4px;
         transition: all 0.3s ease 0s; }
         .blog__masonry .bl__mass__content h2 a:hover {
-          color: #cf7002; }
+          color: #FF8240; }
     .blog__masonry .bl__mass__content p {
       color: #262626;
       font-size: 14px;
@@ -5949,7 +5949,7 @@ div.slide__pizza img {
   font-size: 23px; }
 
 .about__video__activation .owl-nav div i:hover {
-  color: #cf7002;
+  color: #FF8240;
   transition: 0.3s; }
 
 .about__video__activation .owl-nav div.owl-next {
@@ -6089,7 +6089,7 @@ div.slide__pizza img {
   transition: all 0.3s ease 0s; }
 
 .bl__social__service li a:hover i {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .side__title {
   border-bottom: 2px solid #f1f1f1;
@@ -6133,7 +6133,7 @@ div.slide__pizza img {
   transition: 0.3s; }
 
 .serch__box a:hover {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .recent__post__details {
   padding-left: 16px; }
@@ -6155,7 +6155,7 @@ div.slide__pizza img {
   transition: all 0.5s ease 0s; }
 
 .recent__post__details h4 a:hover {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .single__recent__post {
   margin-top: 30px; }
@@ -6183,7 +6183,7 @@ div.slide__pizza img {
   padding-bottom: 0; }
 
 .food__category li a:hover {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .single__comment h2 a {
   color: #262626;
@@ -6194,7 +6194,7 @@ div.slide__pizza img {
   transition: 0.3s; }
 
 .single__comment h2 a:hover {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .single__comment h2 i {
   color: #969696;
@@ -6311,7 +6311,7 @@ div.slide__pizza img {
   transition: 0.3s; }
 
 .sidebar__inbox a:hover {
-  background: #cf7002; }
+  background: #FF8240; }
 
 .instagram__list {
   margin-left: -2px;
@@ -6370,7 +6370,7 @@ div.slide__pizza img {
   margin-top: 21px; }
 
 .recent__twitter h6 a:hover {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .var__social__net {
   display: -webkit-box;
@@ -6414,8 +6414,8 @@ div.slide__pizza img {
       padding: 0 30px;
       transition: all 0.3s ease 0s; }
       .tag__list li a:hover {
-        background: #cf7002;
-        border: 1px solid #cf7002;
+        background: #FF8240;
+        border: 1px solid #FF8240;
         color: #fff; }
 
 .food__sidebar {
@@ -6435,7 +6435,7 @@ div.slide__pizza img {
     transition: all 0.3s ease 0s;
     width: 7px; }
   .food__category li:hover::before {
-    background: #cf7002; }
+    background: #FF8240; }
 
 .food__category li:last-child::before {
   top: 60%; }
@@ -6515,7 +6515,7 @@ div.slide__pizza img {
       font-weight: 600;
       transition: all 0.3s ease 0s; }
       .single__blog__grid .grid__inner h2 a:hover {
-        color: #cf7002; }
+        color: #FF8240; }
     .single__blog__grid .grid__inner p {
       color: #262626;
       font-size: 16px;
@@ -6747,7 +6747,7 @@ div.slide__pizza img {
   position: relative;
   line-height: 28px; }
   .bl__details__content blockquote::before {
-    background: #cf7002 none repeat scroll 0 0;
+    background: #FF8240 none repeat scroll 0 0;
     content: "";
     height: 65px;
     left: 0;
@@ -6804,8 +6804,8 @@ div.slide__pizza img {
   margin-left: 10px; }
 
 .blog__social__net li a:hover i {
-  background: #cf7002;
-  border: 1px solid #cf7002;
+  background: #FF8240;
+  border: 1px solid #FF8240;
   color: #fff; }
 .blog__social__net li a i {
   border: 1px solid #ededed;
@@ -6868,7 +6868,7 @@ div.slide__pizza img {
   width: 30px; }
 
 .author__link li a:hover i {
-  background: #cf7002 none repeat scroll 0 0;
+  background: #FF8240 none repeat scroll 0 0;
   color: #fff; }
 
 .blog__comment__inner .commnet__thumb {
@@ -7230,7 +7230,7 @@ div.slide__pizza img {
   width: 130px; }
 
 .table-content table td.product-name a:hover {
-  color: #cf7002; }
+  color: #FF8240; }
 
 .cart_totals table tr.order-total th,
 .cart_totals table tr.order-total .amount {
@@ -7292,7 +7292,7 @@ div.slide__pizza img {
   margin-top: 90px; }
 
 .cart__total__amount {
-  background: #cf7002 none repeat scroll 0 0;
+  background: #FF8240 none repeat scroll 0 0;
   display: flex;
   height: 60px;
   justify-content: space-between;
@@ -7335,7 +7335,7 @@ div.slide__pizza img {
 .food__dtl__prize {
   margin-bottom: 14px; }
   .food__dtl__prize li {
-    color: #cf7002;
+    color: #FF8240;
     font-size: 24px;
     font-weight: 700; }
     .food__dtl__prize li.old__prize {
@@ -7353,7 +7353,7 @@ div.slide__pizza img {
   position: relative; }
   .cart-plus-minus input {
     border: 1px dashed #ebebeb;
-    color: #cf7002;
+    color: #FF8240;
     font-size: 18px;
     font-weight: 700;
     height: 45px;
@@ -7422,8 +7422,8 @@ div.slide__pizza img {
     text-transform: capitalize;
     transition: all 0.3s ease 0s; }
     .menu__nav a.active, .menu__nav a:hover {
-      background: #cf7002 none repeat scroll 0 0;
-      border: 1px solid #cf7002;
+      background: #FF8240 none repeat scroll 0 0;
+      border: 1px solid #FF8240;
       color: #fff; }
 
 .single__dec__content p {
@@ -7480,7 +7480,7 @@ div.slide__pizza img {
     top: -32px;
     width: 100%; }
     .beef_product .beef__hover__info .beef__hover__inner {
-      background: #cf7002 none repeat scroll 0 0;
+      background: #FF8240 none repeat scroll 0 0;
       border: 4px solid #fff;
       border-radius: 100%;
       color: #fff;
@@ -7509,7 +7509,7 @@ div.slide__pizza img {
   margin-bottom: 13px;
   margin-top: 14px; }
   .beef__prize li {
-    color: #cf7002;
+    color: #FF8240;
     font-size: 24px;
     font-weight: 700; }
     .beef__prize li.old__prize {
@@ -7532,7 +7532,7 @@ div.slide__pizza img {
     transition: all 0.5s ease 0s; }
 
 .beef_product:hover .beef__cart__btn a {
-  background: #cf7002 none repeat scroll 0 0;
+  background: #FF8240 none repeat scroll 0 0;
   color: #fff; }
 
 /*======= Login Styles =======*/
@@ -7621,7 +7621,7 @@ div.slide__pizza img {
       font-weight: 700;
       color: #222; }
       .accountbox__filters li a.active {
-        color: #cf7002; }
+        color: #FF8240; }
 
 .accountbox {
   background: #e3e3e3;
@@ -7657,7 +7657,7 @@ div.slide__pizza img {
       width: 100%;
       padding: 0 30px; }
       .accountbox .single-input input:focus {
-        border-color: #cf7002; }
+        border-color: #FF8240; }
       .accountbox .single-input input::placeholder {
         color: #333 !important;
         opacity: 1; }
@@ -7688,7 +7688,7 @@ div.slide__pizza img {
     width: 30px;
     transition: 0.3s; }
   .social-icons ul li a:hover i {
-    color: #cf7002; }
+    color: #FF8240; }
 
 .social-icons ul li + li {
   margin-left: 16px; }
@@ -7720,7 +7720,7 @@ div.slide__pizza img {
   transition: all 0.3s ease-in-out 0s; }
   .accountbox-close-button:hover {
     opacity: 0.9;
-    color: #cf7002; }
+    color: #FF8240; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .accountbox-wrapper {
@@ -7862,7 +7862,7 @@ div.slide__pizza img {
     margin-right: -5px;
     border: 0 none; }
     .cartbox .cartbox-close:hover {
-      color: #cf7002; }
+      color: #FF8240; }
 
 .cartbox__items {
   padding-bottom: 20px;
@@ -7908,13 +7908,13 @@ div.slide__pizza img {
     font-style: normal;
     line-height: 1; }
     .cartbox__item__content h5 a:hover {
-      color: #cf7002; }
+      color: #FF8240; }
   .cartbox__item__content p {
     font-size: 12px;
     margin-bottom: 0; }
   .cartbox__item__content span.price {
     font-weight: 500;
-    color: #cf7002; }
+    color: #FF8240; }
 
 button.cartbox__item__remove {
   background: none;
@@ -7937,7 +7937,7 @@ button.cartbox__item__remove {
   color: #999;
   border: 0 none; }
   button.cartbox__item__remove:hover {
-    color: #cf7002; }
+    color: #FF8240; }
 
 .cartbox__total {
   margin-top: 20px; }
@@ -8036,7 +8036,7 @@ input[type="submit"] {
   border: 0 none; }
 
 .accordion-head {
-  background-color: #cf7002;
+  background-color: #FF8240;
   color: #ffffff;
   display: block;
   font-size: 15px;
@@ -8057,7 +8057,7 @@ input[type="submit"] {
     .accordion-head.collapsed:focus {
       color: #333; }
     .accordion-head.collapsed:hover {
-      color: #cf7002; }
+      color: #FF8240; }
 
 .accordion-body {
   overflow: hidden;
@@ -8086,7 +8086,7 @@ input[type="submit"] {
       margin-right: 10px;
       font-size: 16px; }
     .checkout-method-list li.active::before {
-      color: #cf7002; }
+      color: #FF8240; }
 
 .shipping-method h5 {
   font-size: 16px;
@@ -8120,7 +8120,7 @@ input[type="submit"] {
       margin-right: 10px;
       font-size: 16px; }
     .payment-method-list li.active::before {
-      color: #cf7002; }
+      color: #FF8240; }
 
 .shipping-form-toggle {
   display: inline-block;
@@ -8139,7 +8139,7 @@ input[type="submit"] {
     margin-right: 10px;
     font-size: 16px; }
   .shipping-form-toggle.active::before {
-    color: #cf7002; }
+    color: #FF8240; }
 
 .checkout-login-form {
   float: left;
@@ -8157,7 +8157,7 @@ input[type="submit"] {
     .checkout-login-form .input-box input[type="submit"] {
       width: 120px;
       margin-right: 0;
-      background-color: #cf7002;
+      background-color: #FF8240;
       padding: 8px 15px;
       border: none;
       color: #ffffff;
@@ -8185,7 +8185,7 @@ input[type="submit"] {
     .checkout-register-form .input-box input[type="submit"] {
       width: 120px;
       margin-right: 0;
-      background-color: #cf7002;
+      background-color: #FF8240;
       padding: 8px 15px;
       border: none;
       color: #ffffff;
@@ -8272,12 +8272,12 @@ input[type="submit"] {
     .payment-form select option {
       padding: 5px 15px; }
   .payment-form a {
-    color: #cf7002;
+    color: #FF8240;
     font-size: 15px;
     margin-top: 5px; }
 
 .order-details-wrapper h2 {
-  background: #cf7002;
+  background: #FF8240;
   color: #ffffff;
   display: block;
   font-size: 14px;
