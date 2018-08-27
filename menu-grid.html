@@ -87,7 +87,17 @@
 
 																			<li><a href="contact.html">Contact</a></li>
 
+																			<li> <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QMWUYNVFHSVN2">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
 																</ul>
+
+
 														</nav>
 
 												</div>
@@ -153,6 +163,14 @@
                                     </ul>
                                     <p>Bacon, egg, and cheese on an English muffin. All organic ingredients made by Lincoln Street Diner</p>
                                 </div>
+																<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																	<input type="hidden" name="cmd" value="_s-xclick">
+																	<input type="hidden" name="hosted_button_id" value="QMWUYNVFHSVN2">
+																	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+																</form>
+
+
 
                             </div>
                         </div>
@@ -178,7 +196,14 @@
                                 <!-- <div class="grid__addto__cart__btn">
                                     <a href="cart.html">Add to Cart</a>
                                 </div> -->
+																<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																	<input type="hidden" name="cmd" value="_s-xclick">
+																	<input type="hidden" name="hosted_button_id" value="VLJC7QX3VU9AY">
+																	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+																</form>
                             </div>
+
                         </div>
                     </div>
                     <!-- End Single Menu Item -->
@@ -202,11 +227,18 @@
                                 <!-- <div class="grid__addto__cart__btn">
                                     <a href="cart.html">Add to Cart</a>
                                 </div> -->
+																<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																	<input type="hidden" name="cmd" value="_s-xclick">
+																	<input type="hidden" name="hosted_button_id" value="ZZU62GEDYZ5FA">
+																	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+																</form>
                             </div>
+
                         </div>
                     </div>
                     <!-- End Single Menu Item -->
-                    
+
                     <!-- Start Single Menu Item -->
                     <div class="col-lg-4 col-sm-12 col-md-6">
                         <div class="menu__grid__item wow fadeInRight">
@@ -224,8 +256,17 @@
                                     </ul>
                                     <p>Açaí, blueberries, raspberries, strawberries, almond milk, and yogurt.</p>
                                 </div>
-                                <!-- <div class="grid__addto__cart__btn">
+																<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+																	<input type="hidden" name="cmd" value="_s-xclick">
+																	<input type="hidden" name="hosted_button_id" value="VRSQSZ2K49UZQ">
+																	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+																	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+																</form>
+                              <!-- <div class="grid__addto__cart__btn">
                                     <a href="cart.html">Add to Cart</a>
+
+
+
                                 </div> -->
                             </div>
                         </div>
@@ -346,6 +387,32 @@
                                 </div>
                             </div>
                         </div>
+												<div id="paypal-button"></div>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+paypal.Button.render({
+  env: 'sandbox',
+  client: {
+    sandbox: 'demo_sandbox_client_id'
+  },
+  payment: function (data, actions) {
+    return actions.payment.create({
+      transactions: [{
+        amount: {
+          total: '0.01',
+          currency: 'USD'
+        }
+      }]
+    });
+  },
+  onAuthorize: function (data, actions) {
+    return actions.payment.execute()
+      .then(function () {
+        window.alert('Thank you for your purchase!');
+      });
+  }
+}, '#paypal-button');
+</script>
                         <!-- End Single Footer -->
                         <!-- Start Single Footer -->
                         <!-- <div class="col-md-6 col-lg-3 col-sm-12 sm--mt--40">
