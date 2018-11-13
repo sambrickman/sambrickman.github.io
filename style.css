@@ -3652,7 +3652,8 @@ div.slide__pizza img {
     padding: 100px 56px 100px 0; }
 
   .app__download__container .dwn__app__list li {
-    display: block; }
+    display: block;
+    }
 
   .app__download__container .dwn__app__list li + li {
     margin-top: 20px; }
