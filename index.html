@@ -30,10 +30,12 @@
 
   <!-- Custom styles for this template -->
   <link href="css/coming-soon.min.css" rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico" sizes="16x16 32x32">
 
 </head>
 
 <body>
+
 
   <div class="overlay"></div>
    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -46,15 +48,30 @@
       <div class="row h-100">
         <div class="col-12 my-auto">
           <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3" style="color:yellow"><i>Strauss</i></h1>
-            <p class="m b-5">Ensure your <strong class="color-yellow"><i>Child</i></strong> can go to
+            <h1 class="mb-3 color-yellow" style="font-family:cenutry" <i>Strauss</i></h1>
+          <p class="m b-5">Ensure your <strong class="color-yellow"><i>Child</i></strong> can go to
               <strong><i>College</i></strong> no matter what happens to you with Life Insurance. </p>
-            <div class="input-group input-group-newsletter">
+                <p class="color-yellow">Enter name and subject "interested" for info</p>
+            <!-- <div class="input-group input-group-newsletter">
               <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
               <div class="input-group-append">
-              <button class="btn btn-secondary" type="button"><a href ="mailto:sbrix4@gmail.com"></a>Learn More</button>
+              <button class="btn btn-secondary" type="button"><action ="mailto:sbrix4@gmail.com"></a>Learn More</button> -->
+
+             <form method="GET" action="mailto:contact.strausslife@gmail.com" enctype="text/plain">
+
+              <div>Name</div>
+              <input name="Name" />
 
 
+
+              <div>Subject</div>
+              <input name="Subject" />
+              <br/>
+              <br/>
+              <input type="submit" value="Learn More"  class="bg-yellow"/>
+
+              <input type="hidden" name="body" />
+            </form>
               </div>
             </div>
           </div>
@@ -69,14 +86,15 @@
 
   <div class="social-icons">
     <ul class="list-unstyled text-center mb-0">
-      <li class="list-unstyled-item">
-        <a href="https://straussagency.com/story.html">
-          <i class="fab"></i>
-        </a>
-      </li>
+
       <li class="list-unstyled-item">
         <a href="https://www.facebook.com/strausslife/">
           <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="https://straussagency.com/story.html">
+          <img src="img/straussagency.jpg">
         </a>
       </li>
     </ul>
